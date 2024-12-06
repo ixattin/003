@@ -1,0 +1,136 @@
+:root {
+    --shandow: 10px 10px 20px 0px #1f470082;
+    --ball-size: 40px;
+}
+
+.xmas, 
+.tree{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tree>div{
+    box-shadow: var(--shandow);
+}
+
+.tree-1{
+    width: 60px;
+    height: 50px;
+    background: #32776a;
+}
+
+.tree-2 {
+    width: 120px;
+    height: 50px;
+    background: #268b4c;
+}
+
+.tree-3{
+    width: 180px;
+    height: 50px;
+    background: #459763;
+}
+
+.tree-4{
+    width: 240px;
+    height: 50px;
+    background: #2d6359;
+}
+
+.tree-5{
+    width: 300px;
+    height: 50px;
+    background: #32776a;
+}
+
+.tree-6{
+    width: 360px;
+    height: 50px;
+    background: #268b4c;
+}
+.tree-7{
+    width: 420px;
+    height: 50px;
+    background: #459763;
+}
+
+.tree-8{
+    width: 480px;
+    height: 50px;
+    background: #2d6359;
+}
+
+.trunk{
+    width: 50px;
+    height: 50px;
+    background-color: #9e6328;
+    box-shadow: var(--shandow);
+}
+
+.ball>div{
+    position: absolute;
+    width: var(--ball-size);
+    height: var(--ball-size);
+    border-radius: 50px;
+    box-shadow: var(--shandow);
+}
+
+.ball-1{
+    background: #e388b1;
+    left: 250px;
+    top: 80px;
+}
+
+.ball-2{
+    background: red;
+    left: 170px;
+    top: 120px;
+}
+
+.ball-3{
+    background: blue;
+    left: 246px;
+    top: 175px;
+}
+
+.ball-4{
+    background: violet;
+    left: 144px;
+    top: 238px;
+}
+
+.ball-5{
+    background: purple;
+    left: 320px;
+    top: 235px;
+}
+
+.ball-6{
+    background: orangered;
+    left: 250px;
+    top: 280px;
+}
+
+.ball-7{
+    background: peru;
+    left: 123px;
+    top: 297px;
+}
+
+.ball-8{
+    background: aqua;
+    left: 293px;
+    top: 368px;
+}
+
+.txt {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+.copy{
+    text-align: center;
+    gap: 20px;
+}
